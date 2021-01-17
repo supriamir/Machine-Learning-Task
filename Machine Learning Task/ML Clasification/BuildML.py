@@ -20,4 +20,4 @@ model = gnb.fit(train, train_labels)
 preds = gnb.predict(test)
 # print(preds)
 
-print('accurasy:', accuracy_score(test_labels, preds))
+print('accurasy :', accuracy_score(test_labels, preds))
