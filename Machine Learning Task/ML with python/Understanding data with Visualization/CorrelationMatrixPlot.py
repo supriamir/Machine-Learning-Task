@@ -1,7 +1,7 @@
 from matplotlib import pyplot
 from pandas import read_csv
 import numpy
-Path = r"D:\Machine Learning Task\datasets\pima-indians-diabetes.csv"
+Path = r"D:\Sozo-lab-tasks\Machine Learning Task\datasets\pima-indians-diabetes.csv"
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 data = read_csv(Path, names=names)
 correlations = data.corr()

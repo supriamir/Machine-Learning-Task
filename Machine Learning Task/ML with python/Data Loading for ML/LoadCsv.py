@@ -1,6 +1,6 @@
 import csv
 import numpy as np
-path = r"D:\Machine Learning Task\datasets\iris.csv"
+path = r"D:\Sozo-lab-tasks\Machine Learning Task\datasets\iris.csv"
 
 with open(path,'r') as f:
     reader =csv.reader(f,delimiter=',')

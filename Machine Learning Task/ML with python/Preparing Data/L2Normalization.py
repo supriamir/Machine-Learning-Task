@@ -1,7 +1,7 @@
 from pandas import read_csv
 from numpy import set_printoptions
 from sklearn.preprocessing import Normalizer
-path = r'D:\Machine Learning Task\datasets\pima-indians-diabetes.csv'
+path = r'D:\Sozo-lab-tasks\Machine Learning Task\datasets\pima-indians-diabetes.csv'
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 dataframe = read_csv (path, names=names)
 array = dataframe.values

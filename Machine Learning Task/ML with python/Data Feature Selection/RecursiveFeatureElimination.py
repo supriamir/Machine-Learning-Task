@@ -1,7 +1,7 @@
 from pandas import read_csv
 from sklearn.feature_selection import RFE
 from sklearn.linear_model import LogisticRegression
-path = r'D:\Machine Learning Task\datasets\pima-indians-diabetes.csv'
+path = r'D:\Sozo-lab-tasks\Machine Learning Task\datasets\pima-indians-diabetes.csv'
 names = ['preg', 'plas', 'pres', 'skin',
          'test', 'mass', 'pedi', 'age', 'class']
 dataframe = read_csv(path, names=names)
